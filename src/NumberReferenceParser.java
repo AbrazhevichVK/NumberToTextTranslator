@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class NumberReferenceParser {
+public  class  NumberReferenceParser {
 
     public static Map<String, String> getNumberReference(String path) {
         File file = new File(path);
