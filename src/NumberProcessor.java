@@ -6,6 +6,16 @@ public class NumberProcessor {
     public static String getNumberAsText(String number, Map<String, String> map)
     {
         var triads = getTriads(number);
+        ArrayList<String> triadAsText = getTriadsAsText(map, triads);
+        String result = new String();
+        Collections.reverse(triadAsText);
+        for (String treadText:triadAsText) {
+            result+=treadText+" ";
+        }
+        return result.replace("null","").trim();
+    }
+
+    private static ArrayList<String> getTriadsAsText(Map<String, String> map, ArrayList<Integer> triads) {
         int currentTriad = 0;
         ArrayList<String> triadAsText = new ArrayList<>();
         for (int triad : triads) {
@@ -29,12 +39,7 @@ public class NumberProcessor {
             }
             triadAsText.add(triadText);
         }
-        String result = new String();
-        Collections.reverse(triadAsText);
-        for (String treadText:triadAsText) {
-            result+=treadText+" ";
-        }
-        return result.replace("null","").trim();
+        return triadAsText;
     }
 
     private static ArrayList<Integer> getTriads(String number){
