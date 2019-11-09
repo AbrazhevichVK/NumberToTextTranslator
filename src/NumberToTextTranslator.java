@@ -1,8 +1,4 @@
-import java.io.File;
-import  java.util.Arrays;
 import java.util.Scanner;
-import java.util.HashMap;
-import java.io.FileNotFoundException;
 import java.util.Map;
 
 public class NumberToTextTranslator {
@@ -11,8 +7,11 @@ public class NumberToTextTranslator {
         Map<String, String> map = NumberReferenceParser.getNumberReference(path);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter int number: ");
-        int number = scanner.nextInt();
-
-
+        String number = scanner.next();
+        if(number.matches("[-+]?\\d+")){
+            System.out.println(NumberProcessor.getNumberAsText(number,  map));
+        } else {
+            System.out.println("Input error");
+        }
     }
 }
