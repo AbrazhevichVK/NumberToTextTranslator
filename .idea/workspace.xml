@@ -24,23 +24,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="93" />
-          <entry key="java" value="3830" />
+          <entry key="java" value="5493" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3830" />
+          <entry key="JAVA" value="5493" />
           <entry key="PLAIN_TEXT" value="93" />
         </counts>
       </usages-collector>
@@ -48,14 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumberToTextTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -63,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumberProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#310#319#0" expanded="true" />
@@ -75,10 +72,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NumberProcessorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#275#0" expanded="true" />
+                <element signature="e#1110#1126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NumberReferenceParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="544">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,6 +103,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -106,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/FileScanner.java" />
         <option value="$PROJECT_DIR$/src/NumberReferencePerser.java" />
         <option value="$PROJECT_DIR$/src/NumberReferenceParser.java" />
+        <option value="$PROJECT_DIR$/src/NumberProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/NumberToTextTranslator.java" />
         <option value="$PROJECT_DIR$/src/NumberProcessor.java" />
       </list>
@@ -129,11 +142,6 @@
               <item name="TestTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestTask" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -143,10 +151,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573310763641" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573418402444" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\TestTask" />
       <recent name="D:\Java\TestTask\src" />
@@ -172,9 +196,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberProcessorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberProcessorTest.getNumberAsText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberProcessorTest" />
+      <option name="METHOD_NAME" value="getNumberAsText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberProcessorTest.testgetEndOfLastNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberProcessorTest" />
+      <option name="METHOD_NAME" value="testgetEndOfLastNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.NumberToTextTranslator" />
+      <item itemvalue="JUnit.NumberProcessorTest" />
+      <item itemvalue="JUnit.NumberProcessorTest.getNumberAsText" />
+      <item itemvalue="JUnit.NumberProcessorTest.testgetEndOfLastNumber" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.NumberToTextTranslator" />
+        <item itemvalue="JUnit.NumberProcessorTest.testgetEndOfLastNumber" />
+        <item itemvalue="JUnit.NumberProcessorTest.getNumberAsText" />
+        <item itemvalue="JUnit.NumberProcessorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +251,38 @@
       <updated>1573060824338</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="NumberProcessorTest - 2019.11.10 at 14h 23m 17s.xml">
+      <configuration name="NumberProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest - 2019.11.10 at 14h 33m 26s.xml">
+      <configuration name="NumberProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest_getNumberAsText - 2019.11.10 at 14h 34m 24s.xml">
+      <configuration name="NumberProcessorTest.getNumberAsText" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest_getNumberAsText - 2019.11.10 at 14h 34m 50s.xml">
+      <configuration name="NumberProcessorTest.getNumberAsText" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest_testgetEndOfLastNumber - 2019.11.10 at 15h 06m 50s.xml">
+      <configuration name="NumberProcessorTest.testgetEndOfLastNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest_testgetEndOfLastNumber - 2019.11.10 at 15h 07m 31s.xml">
+      <configuration name="NumberProcessorTest.testgetEndOfLastNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest_testgetEndOfLastNumber - 2019.11.10 at 15h 11m 43s.xml">
+      <configuration name="NumberProcessorTest.testgetEndOfLastNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest_testgetEndOfLastNumber - 2019.11.10 at 15h 11m 58s.xml">
+      <configuration name="NumberProcessorTest.testgetEndOfLastNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest_testgetEndOfLastNumber - 2019.11.10 at 15h 23m 29s.xml">
+      <configuration name="NumberProcessorTest.testgetEndOfLastNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberProcessorTest_testgetEndOfLastNumber - 2019.11.10 at 17h 18m 20s.xml">
+      <configuration name="NumberProcessorTest.testgetEndOfLastNumber" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -262,10 +355,17 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/NumberToTextTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NumberProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#310#319#0" expanded="true" />
@@ -274,25 +374,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumberProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#275#0" expanded="true" />
+            <element signature="e#1110#1126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NumberReferenceParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumberToTextTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TestTask</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

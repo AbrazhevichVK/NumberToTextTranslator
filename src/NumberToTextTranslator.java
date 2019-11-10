@@ -8,10 +8,12 @@ public class NumberToTextTranslator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter int number: ");
         String number = scanner.next();
-        if(number.matches("[-+]?\\d+")){
-            System.out.println(NumberProcessor.getNumberAsText(number,  map));
+        if (number.matches("[-+]?\\d+")) {
+            System.out.println("Ответ: "+NumberProcessor.getNumberAsText(number, map));
         } else {
-            System.out.println("Input error");
+                    System.out.println("Input error");
         }
     }
 }
+
+

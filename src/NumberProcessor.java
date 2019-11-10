@@ -10,7 +10,9 @@ public class NumberProcessor {
         String result = new String();
         Collections.reverse(triadAsText);
         for (String treadText:triadAsText) {
-            result+=treadText+" ";
+            if(treadText==null){
+                result+=treadText;
+            }else{ result+=treadText+" ";}
         }
         return result.replace("null","").trim();
     }
@@ -32,10 +34,14 @@ public class NumberProcessor {
             String onesText = map.get(String.valueOf(ones));
             var endOfLastNumber = getEndOfLastNumber(ones,currentTriad);
             var triadText = hungreedsText + " " + tensText +" "+onesText+endOfLastNumber;
+            triadText = triadText.replace("null","").trim();
             if(currentTriad>1){
                 var triadName = map.get(currentTriad+"triad");
                 var endOfNumber = getEndOfNumber(ones, currentTriad);
-                triadText+=" "+triadName+endOfNumber;
+                if (hungreedsText==null && tensText==null&& onesText==null){
+                    triadText=null;
+                }else{triadText+=" "+triadName+endOfNumber;}
+
             }
             triadAsText.add(triadText);
         }
