@@ -7,9 +7,13 @@ import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/**
+ * This class is used for unit tests
+ */
 public class NumberProcessorTest {
-
+    /**
+     * This test is used for testing general algorithm for translating number from digital to test format
+     */
     @Test
     public void testGetNumberAsText() {
         String expectedResult = "Двадцать Две Тысячи Двести Двадцать Два";
@@ -30,6 +34,9 @@ public class NumberProcessorTest {
 
     }
 
+    /**
+     * This test is used for checking the correct work of code, if there are various combinations of nulls and other number in the entered number
+     */
     @Test
     public void testGetEndOfLastNumber() {
         String expecteEndsOfLastNumber = "Пять Триллионов Два Миллиарда Один Миллион Две Тысячи Пятнадцать";

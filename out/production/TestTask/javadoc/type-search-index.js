@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"main","l":"NumberProcessor"},{"p":"test","l":"NumberProcessorTest"},{"p":"main","l":"NumberReferenceParser"},{"p":"main","l":"NumberToTextTranslator"}]

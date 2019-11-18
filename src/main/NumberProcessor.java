@@ -1,10 +1,23 @@
 package main;
+/**
+ * Imports for Collections and Map
+ */
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Map;
 
+/**
+ * NumberProcessor is a class, where situated  actions for translating InputNumber into text variant
+ */
 public class NumberProcessor {
+    /**
+     * This method takes InputNumber and collection map from NumberToTextTranslator class and passes them to other methods.Finally, this method return to us a result of translating number to text
+     *
+     * @param inputNumber
+     * @param map
+     * @return resultOfTranslating
+     */
     public static String getTranslatedNumberAsText(String inputNumber, Map<String, String> map) {
         String resultOfTranslating = new String();
         if (inputNumber.matches("0+")) {
@@ -26,6 +39,13 @@ public class NumberProcessor {
         return resultOfTranslating;
     }
 
+    /**
+     * This method converts triads obtained from the getTriads method from a digital combination into a text, including word ending, which obtained from getEndingOfNumber and getEndOfDegree methods
+     *
+     * @param map
+     * @param allTriadsFromInputNumber
+     * @return textValuesOfAllTriads
+     */
     private static ArrayList<String> getTriadsFromNumberAsText(Map<String, String> map, ArrayList<Integer> allTriadsFromInputNumber) {
 
         int degreeOfCurrentTriad = 0;
@@ -76,6 +96,12 @@ public class NumberProcessor {
         return textValuesOfAllTriads;
     }
 
+    /**
+     * This method accepts int type triads from getStrPartsAsInt, and return a collection of the entire set of triads from entered InputNumber
+     *
+     * @param inputNumber
+     * @return allTriadsFromInputNumber
+     */
     private static ArrayList<Integer> getTriads(String inputNumber) {
 
         ArrayList<Integer> allTriadsFromInputNumber = new ArrayList<Integer>();
@@ -84,6 +110,13 @@ public class NumberProcessor {
         return allTriadsFromInputNumber;
     }
 
+    /**
+     * This method is responsible for selecting endings for the text version of numbers 1 and 2 in various situations
+     *
+     * @param number
+     * @param degreeOfCurrentTriad
+     * @return
+     */
     private static String getEndingOfNumber(int number, int degreeOfCurrentTriad) {
         if (degreeOfCurrentTriad == 2) {
             if (number == 1) {
@@ -103,6 +136,13 @@ public class NumberProcessor {
         return "";
     }
 
+    /**
+     * This method is responsible for the selection of endings for degrees such as thousand, million an so on in various situation
+     *
+     * @param number
+     * @param degreeOfCurrentTriad
+     * @return
+     */
     private static String getEndOfDegree(int number, int degreeOfCurrentTriad) {
         if (degreeOfCurrentTriad == 2) {
             switch (number) {
@@ -132,6 +172,13 @@ public class NumberProcessor {
         }
     }
 
+    /**
+     * This method divides InputNumber into parts, consisting of three digits - triads, and converts the triad type from String to Integer
+     *
+     * @param string
+     * @param partitionSize
+     * @return
+     */
     private static ArrayList<Integer> getStrPartsAsInt(String string, int partitionSize) {
         ArrayList<Integer> allTriadsFromInputNumber = new ArrayList<Integer>();
         int len = string.length();
