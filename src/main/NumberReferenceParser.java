@@ -1,33 +1,33 @@
+package main;
+
 import java.io.File;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
 
-public  class  NumberReferenceParser {
+public class NumberReferenceParser {
 
-    public static Map<String, String> getNumberReference(String path) {
-        File file = new File(path);
-        Scanner scanner ;
+    public static Map<String, String> getNumberReferenceBook(String pathway) {
+        File file = new File(pathway);
+        Scanner scanner;
         Map<String, String> map = new HashMap<String, String>();
         try {
             scanner = new Scanner(file);
             map = createMap(scanner);
             scanner.close();
         } catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        } catch (Exception e){
-            System.out.println("Unexpected error. "+ e.getMessage());
+            throw new RuntimeException("No valid file");
         }
         return map;
     }
 
-    private  static Map<String, String> createMap(Scanner scanner){
+    private static Map<String, String> createMap(Scanner scanner) {
         Map<String, String> map = new HashMap<String, String>();
-        while (scanner.hasNextLine()){
+        while (scanner.hasNextLine()) {
             String textread = scanner.nextLine();
-            String[] words = textread.split(":");
-            map.put(words[0], words[1]);
+            String[] partsOfMap = textread.split(":");
+            map.put(partsOfMap[0], partsOfMap[1]);
         }
         return map;
     }
